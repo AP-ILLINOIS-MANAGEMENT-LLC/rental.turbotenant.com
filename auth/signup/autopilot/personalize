@@ -1,0 +1,4 @@
+curl 'https://api.twilio.com/2010-04-01/Accounts/AC75a26223728f83ed279c281db52dc413/Messages.json' -X POST \
+--data-urlencode 'To=+18777804236' \
+--data-urlencode 'From=+18667056982' \
+-u AC75a26223728f83ed279c281db52dc413:[AuthToken]
